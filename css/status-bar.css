@@ -1,0 +1,24 @@
+.status-bar {
+  position: fixed;
+  top: 0px;
+  padding-top: 8px;
+  padding-right: 41px;
+  width: 100%;
+  height: 23px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  background-color: white;
+}
+.status-bar__column .span,
+.status-bar__column i {
+  opacity: 0.6;
+}
+
+.status-bar i {
+  font-size: 14px;
+}
+
+.status-bar .status-bar__battery-level {
+  margin-left: 5px;
+}
